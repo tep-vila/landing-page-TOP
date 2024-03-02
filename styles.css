@@ -1,0 +1,23 @@
+* {
+  outline: 1px solid red;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically in the center */
+  flex: 1 1 200px;
+}
+
+.left {
+  flex: 1;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+}
+
+.right {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 1 1 100px;
+}
